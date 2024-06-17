@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    background-color: #1B3333;
+}
+
+.back{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.logo{
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    top: 26.06px;
+    left: 51.05px;
+    align-items: center;
+}
+
+.logo h1{
+    text-decoration: none;
+    color: #B5EAEB;
+    font-family: "Notable", sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.login{
+    width: 384.6px;
+    min-height: 542.74px;
+    background-color: #3A5366;
+    padding: 27.08px 25.68px;
+}
+
+.login h1{
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 40.76px;
+    color: white;
+}
+
+.pass{
+    margin-bottom: 20.48px;
+}
+
+.email{
+    margin-bottom: 20.48px;
+}
+
+.login input{
+    width: 100%;
+    background-color: transparent;
+    padding: 20.66px 9.31px;
+    outline: none;
+    color: white;
+    border: solid white 1.5px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.login input::placeholder{
+    font-size: 16px;
+    color: white;
+}
+
+.remember{
+    margin-left: 9.31px;
+    display: flex;
+    align-items: center;
+    gap: 7.18px;
+    margin-bottom: 21.23px;
+    cursor: pointer;
+}
+
+.remember input{
+    width: 17.19px;
+    height: 17.19px;
+    border: solid black 1.4px;
+    background-color: transparent;
+}
+
+.remember h2{
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+}
+
+.kotak{
+    width: 17.19px;
+    height: 17.19px;
+    border: solid white 1.4px;
+}
+
+.login button{
+    width: 100%;
+    background-color: transparent;
+    border: solid white 1.5px;
+    border-radius: 13px;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+}
+
+.log-but{
+    font-size: 24px;
+    padding: 7.79px;
+    letter-spacing: 0.5px;
+}
+
+.google{
+    padding: 13.47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.or{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 13.23px;
+    margin-bottom: 13.23px;
+}
+
+.or ul{
+    border: solid white 1px;
+    height: 0;
+    width: 43%;
+}
+
+.or h3{
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+}
+
+.google img{
+    left: 17.39px;
+    position: absolute;
+}
+
+.google h4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.error-message{
+    color: red;
+    font-weight: 700;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.log-but:active, .google:active{
+    background-color: white;
+    color: #376F70;
+}
+
+.register-text p{
+    color: white;
+}
+
+.register-text{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.register-text a{
+    color: white;
+    text-decoration: underline;
+}
+
+.register-text a:hover{
+    font-weight: 600;
+}
